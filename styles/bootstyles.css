@@ -1,23 +1,130 @@
-.ul {
+/* Body style */
+ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0px;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgba(49, 94, 39, 0.712);
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    overflow:visible;
   }
-  
+
+  h3 {
+    color: rgba(200, 243, 190, 0.712);
+    font-size:xx-large;
+  }
+
+  h4 {
+    color: rgba(200, 243, 190, 0.712);
+  }
+
+  body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+  }
+  /* Header style */
   li {
-    float: left;
+    float: right;
+    padding-right: 15px;
   }
   
   li a {
     display: block;
-    color: white;
-    text-align: center;
+    color: black;
+    text-align:center;
     padding: 14px 16px;
     text-decoration: none;
   }
+
+.header {
+  padding: 150px;
+  text-align:center;
+  background-image: url("../images/provo.jpeg");
+  background-repeat: no-repeat;
+  background-size: 1250px;
+  background-position:top;
+  background-position-x: left;
+  color: black;
+  font-size: 38px;
+}
+
+.subheading {
+  font-size: 25px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  text-align: center;
   
-  li a:hover {
-    background-color: #111;
-  }
+}
+
+/* Page Content */
+.content {
+  padding: 200px;
+  background-color: rgba(49, 94, 39, 0.712);
+  text-align: center;
+  color: black;
+  font-size: medium;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+  text-align: center;
+  background-color: rgba(49, 94, 39, 0.712);
+  padding: 15px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-top: 1px solid white;
+  padding: 30px;
+}
+
+p {
+  font-style: italic;
+  color: rgb(197, 194, 194);
+}
+/* External Link */
+button {
+  border: none;
+  color: white;
+  padding: 20px 35px;
+  text-align: right;
+  text-decoration:none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.button2 {
+  background-color: #008CBA;
+}
+
+.button:hover {
+  background-color: #006385;
+}
+
+.position {
+  
+  float: right;
+}
+
+/* Social Links */
+.fa {
+  padding: 20px;
+  font-size: 20px 20px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background:rgba(135, 226, 115, 0.712);
+  color: white;
+}
