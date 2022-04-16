@@ -9,6 +9,8 @@ body {
 h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(109, 74, 28);
+    font-weight: lighter;
+    
 }
 
 h3 {
@@ -35,4 +37,8 @@ iframe {
 
 h4 {
     text-decoration: underline;
+}
+
+.caption {
+    color: rgb(104, 102, 102);
 }

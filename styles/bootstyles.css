@@ -5,29 +5,34 @@ ul {
     padding: 0px;
     overflow: hidden;
     background-color: rgba(49, 94, 39, 0.712);
-    font-size: 13px;
+    font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
     overflow:visible;
   }
 
+  
+
   h3 {
-    color: rgba(200, 243, 190, 0.712);
+    color: rgba(215, 250, 207, 0.712);
     font-size:xx-large;
   }
 
   h4 {
-    color: rgba(200, 243, 190, 0.712);
+    color: rgba(215, 250, 207, 0.712);
   }
 
   body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
+    resize: horizontal;
+    overflow: auto;
   }
   /* Header style */
   li {
     float: right;
-    padding-right: 15px;
+    padding-right: 20px;
+    padding-top: 20px;
   }
   
   li a {
@@ -43,7 +48,7 @@ ul {
   text-align:center;
   background-image: url("../images/provo.jpeg");
   background-repeat: no-repeat;
-  background-size: 1250px;
+  background-size: cover;
   background-position:top;
   background-position-x: left;
   color: black;
@@ -64,7 +69,6 @@ ul {
   background-color: rgba(49, 94, 39, 0.712);
   text-align: center;
   color: black;
-  font-size: medium;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -105,7 +109,6 @@ button {
 }
 
 .position {
-  
   float: right;
 }
 
